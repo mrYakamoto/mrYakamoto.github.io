@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <title>Blog-entry</title>
+  </head>
+
+  <body>
+    <!--
+    Here's the main header
+    -->
+    <header class="bg-c-dark debug">
+    <h1 class="fz-lrg debug m-0 ff-co fw-bold c-khaki"><span class="fz-xl">W</span>elcome <span class="fz-xl">H</span>omepage</h1>
+  </header>
+
+    <!--
+    Here's the navigation bar.
+    -->
+
+    <nav class="bg-c-pitch m-b">
+    <table class="pd-s width-lrg m-l-sm debug">
+      <tbody><tr class="bd-sm">
+        <td class="bd-sm bg-c-pitch">
+          <a href="./My Homepage_files/My Homepage.html" class="ff-co c-khaki">Home</a>
+        </td>
+        <td class="bd-sm bg-c-pitch">
+          <a href="./My Homepage_files/My Homepage.html" class="ff-co c-khaki">Contact</a>
+        </td>
+        <td class="bd-sm bg-c-pitch">
+          <a href="./My Homepage_files/My Homepage.html" class="ff-co c-khaki">About Me</a>
+        </td>
+        <td class="bd-sm bg-c-pitch">
+          <a href="./My Homepage_files/My Homepage.html" class="ff-co c-khaki">Projects</a>
+        </td>
+        <td class="bd-sm bg-c-pitch">
+          <a href="./My Homepage_files/My Homepage.html" class="ff-co c-khaki">Resume</a>
+        </td>
+      </tr>
+    </tbody></table>
+  </nav>
+
+    <!--
+    Here's the main page content
+    -->
+    <main>
+      <h2>Arrays and Hashes</h2>
+      <section>
+        <p>
+          Arrays and hashes are very similar, but also have very distinct uses. In Ruby, everything is an object, and arrays and hashes are collections of objects.
+        </p>
+        <p>
+          In an array, each item contained can be almost any kind of object, like strings, numbers, or even other arrays.
+        </p>
+        <h3>Here's some examples of arrays...</h3>
+        <!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">array1 <span style="color: #666666">=</span> <span style="color: #666666">[1</span>,<span style="color: #666666">5</span>,<span style="color: #666666">4</span>,<span style="color: #666666">2</span>,<span style="color: #666666">80]</span>
+array2 <span style="color: #666666">=</span> <span style="color: #666666">[</span><span style="color: #BA2121">&#39;clown&#39;</span>, <span style="color: #BA2121">&#39;box&#39;</span>,<span style="color: #BA2121">&#39;tar&#39;</span>,<span style="color: #BA2121">&#39;cat&#39;</span><span style="color: #666666">]</span>
+array3 <span style="color: #666666">=</span> <span style="color: #666666">[56</span>, <span style="color: #BA2121">&#39;pencil&#39;</span>, <span style="color: #666666">[</span><span style="color: #BA2121">&#39;work&#39;</span>, <span style="color: #666666">41</span>, <span style="color: #BA2121">&#39;gauntlet&#39;</span><span style="color: #666666">]</span>, <span style="color: #BA2121">&#39;99&#39;</span><span style="color: #666666">]</span>
+</pre></div>
+
+        <p>
+          Each item in an array's position is marked in order by an index number (starting with zero), like array_name[indexNumber].</p><p>For example,
+        </p>
+        <!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">array3<span style="color: #666666">[0]</span> <span style="color: #666666">=</span> <span style="color: #666666">56</span>
+array3<span style="color: #666666">[2]</span> <span style="color: #666666">=</span> <span style="color: #666666">[</span><span style="color: #BA2121">&#39;work&#39;</span>, <span style="color: #666666">41</span>, <span style="color: #BA2121">&#39;gauntlet&#39;</span><span style="color: #666666">]</span>
+array3<span style="color: #666666">[2][0]</span> <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;work&#39;</span>
+</pre></div>
+
+        <p>
+          Hashes are very much like arrays, except that each entry contains a pair of items, a "key" and a "value". The key points to the value and each key within the same hash must be unique.
+        </p>
+        <h3>A hash looks like this</h3>
+
+          <!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008000">hash_name</span> <span style="color: #666666">=</span> {
+  <span style="color: #BA2121">&quot;age&quot;</span> <span style="color: #666666">=&gt;</span> <span style="color: #666666">58</span>,
+  <span style="color: #BA2121">&quot;address&quot;</span> <span style="color: #666666">=&gt;</span> <span style="color: #BA2121">&quot;451 Yorkshire Ln.&quot;</span>,
+  <span style="color: #BA2121">&quot;occupation&quot;</span> <span style="color: #666666">=&gt;</span> <span style="color: #BA2121">&quot;Bible salesman&quot;</span>
+}
+</pre></div>
+
+        <p>
+          The values in the hash can be accessed by using the keys.
+        </p>
+        <!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008000">hash</span><span style="color: #666666">[</span><span style="color: #BA2121">&quot;age&quot;</span><span style="color: #666666">]</span> <span style="color: #666666">=</span> <span style="color: #666666">58</span>
+<span style="color: #008000">hash</span><span style="color: #666666">[</span><span style="color: #BA2121">&quot;address&quot;</span><span style="color: #666666">]</span> <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;451 Yorkshire Ln.&quot;</span>
+</pre></div>
+      <p>
+        A hash can be useful in situations where one object has many different properties with values or to store values for many different objects.
+      </p>
+
+      </section>
+    </main>
+
+    <!--
+    Here's the footer
+    -->
+    <footer class="ta-c clr-both bg-c-khaki height-ft pd-s ff-co">
+    <h2 class="c-pitch">This is the footer. I'm not sure what I want to put down here yet.</h2>
+  </footer>
+
+  </body>
+</html>
