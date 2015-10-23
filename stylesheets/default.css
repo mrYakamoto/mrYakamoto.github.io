@@ -7,6 +7,7 @@ a { text-decoration: none; }
 .debug { border: 0px solid red;}
 
 .ta-c { text-align: center; }
+.ta-l { text-align: left; }
 
 .fz-med { font-size:3em;}
 .fz-lrg { font-size: 4em; }
@@ -40,6 +41,7 @@ a { text-decoration: none; }
 .m-r { margin-right: 5%; }
 .m-r-sm { margin-right: 2.5%; }
 .m-b { margin-bottom: 20px; }
+.m-b-med { margin-bottom: 35px; }
 .m-b-lrg { margin-bottom: 50px; }
 .m-t { margin-top: 20px; }
 .m-t-lrg { margin-top: 50px; }
