@@ -54,6 +54,8 @@ a { text-decoration: none; }
 
 .clr-both {clear: both;}
 
+
+.height-icon { height: 80px; }
 .height-m { height: 280px;}
 .height-ft { height: 60px;}
 .width-lrg { width: 95%;}
