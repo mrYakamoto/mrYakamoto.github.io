@@ -4,6 +4,18 @@ body {
 
 a { text-decoration: none; }
 
+nav {
+  position: fixed;
+  top:0px;
+  width: 100%;
+}
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+}
+
 .debug { border: 0px solid red;}
 
 .ta-c { text-align: center; }
@@ -38,7 +50,10 @@ a { text-decoration: none; }
 .m-0 { margin: 0; }
 .m-l { margin-left: 5%; }
 .m-l-sm { margin-left: 2.5%; }
+.m-l-med { margin-left: 15%; }
+.m-l-lrg { margin-left: 35%; }
 .m-r { margin-right: 5%; }
+.m-r-med {margin-right: 15%;}
 .m-r-sm { margin-right: 2.5%; }
 .m-b { margin-bottom: 20px; }
 .m-b-med { margin-bottom: 35px; }
@@ -56,8 +71,9 @@ a { text-decoration: none; }
 
 
 .height-icon { height: 80px; }
-.height-m { height: 280px;}
-.height-ft { height: 60px;}
+.height-sm { height: 200px;}
+.height-m { height: 285px;}
+.height-ft { height: 30px;}
 .width-lrg { width: 95%;}
 
 .d-bl { display: block; }
