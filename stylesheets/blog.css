@@ -1,12 +1,18 @@
+
+
 main {
   margin-left: 3%;
+  background-color: #D1D1D1;
+  margin-top: 50px;
+  padding: 15px;
+  margin-bottom: 60px;
 }
 
 main h2 {
   font-size: 2em;
   font-family: courier;
   text-align: center;
-  margin-right: 10%;
+  margin-right: 0%;
 }
 
 main p {
