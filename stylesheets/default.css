@@ -1,6 +1,15 @@
+.debug { border: 0px solid red;}
+.debugg { border: 0px solid green;}
+
 body {
   margin: 0;
-  background-image: url("imgs/background/static3.jpg");
+  background-image: url("https://raw.githubusercontent.com/mrYakamoto/mrYakamoto.github.io/master/imgs/background/static3.jpg");
+}
+
+main {
+  width: 610px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 td a {
@@ -22,7 +31,7 @@ footer {
    width:100%;
 }
 
-.debug { border: 0px solid red;}
+
 
 .ta-c { text-align: center; }
 .ta-l { text-align: left; }
@@ -42,11 +51,11 @@ footer {
 .c-khaki { color: #FFEED1; }
 .c-pitch { color: #000000; }
 
-.bg-c-pitch {background-color: #000000; }
+.bg-c-pitch {background-color: #19290E; }
 .bg-c-fog { background-color: gray; }
 .bg-c-dark { background-color: #219486;}
 .bg-c-khaki { background-color: #FFEED1}
-.bg-c-slime { background-color: #D0FF3E;}
+.bg-c-slime { background-color: #9AFF55;}
 
 
 .pd-0 { padding: 0;}
@@ -68,6 +77,8 @@ footer {
 .m-t { margin-top: 20px; }
 .m-t-lrg { margin-top: 50px; }
 
+.m-r-80 {margin-right: 80px;}
+
 .bd-sm { border: 1px dashed black; }
 .bd-med { border: 3px solid black;}
 .bd-color { border: ;}
@@ -76,9 +87,10 @@ footer {
 .fl-r { float: right;}
 
 .clr-both {clear: both;}
+.clr-right { clear: right; }
 
 
-.height-icon { height: 80px; }
+.height-icon { height: 53px; }
 .height-sm { height: 200px;}
 .height-m { height: 285px;}
 .height-ft { height: 30px;}
@@ -91,3 +103,6 @@ footer {
 .p-rel { position: relative;}
 .b-sm { bottom: 100px;}
 .l-sm { left: 50px;}
+.t-sm { top: 50px;}
+
+.overflow { overflow: auto; }
