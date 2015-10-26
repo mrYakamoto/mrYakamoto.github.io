@@ -99,6 +99,8 @@ footer {
 .height-ft { height: 30px;}
 .width-lrg { width: 95%;}
 
+.width-icons { width: 55px; }
+
 .d-bl { display: block; }
 .d-inl { display: inline; }
 .d-inl-bl { display: inline-block; }
