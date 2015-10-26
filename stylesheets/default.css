@@ -1,5 +1,11 @@
 body {
   margin: 0;
+  background-image: url("imgs/background/static3.jpg");
+}
+
+td a {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 a { text-decoration: none; }
@@ -40,6 +46,7 @@ footer {
 .bg-c-fog { background-color: gray; }
 .bg-c-dark { background-color: #219486;}
 .bg-c-khaki { background-color: #FFEED1}
+.bg-c-slime { background-color: #D0FF3E;}
 
 
 .pd-0 { padding: 0;}
@@ -61,8 +68,9 @@ footer {
 .m-t { margin-top: 20px; }
 .m-t-lrg { margin-top: 50px; }
 
-.bd-sm { border: 1px solid black; }
+.bd-sm { border: 1px dashed black; }
 .bd-med { border: 3px solid black;}
+.bd-color { border: ;}
 
 .fl-l { float: left;}
 .fl-r { float: right;}
@@ -79,3 +87,7 @@ footer {
 .d-bl { display: block; }
 .d-inl { display: inline; }
 .d-inl-bl { display: inline-block; }
+
+.p-rel { position: relative;}
+.b-sm { bottom: 100px;}
+.l-sm { left: 50px;}
