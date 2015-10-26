@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<head>
-  <title>GreggW's DevBoot Blog</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
-</head>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <title>Inline vs Inline-block</title>
+  </head>
 
-<main>
-  <h1>Phase 0 Unit 1 blog</h1>
+  <body>
+    <!--
+    Here's the main site header
+    -->
+
+
+    <!--
+    Here's the navigation bar.
+    -->
+    <nav class="m-b ">
+    <table class="pd-0 width-lrg m-l-sm debug">
+      <tbody><tr class="bd-sm pd-0 m-0">
+        <td class="debug">
+          <a href="./index.html" class="ff-co c-pitch bg-c-slime bd-sm">Home</a>
+        </td>
+        <td class="">
+          <a href="#" class="ff-co c-pitch bg-c-slime bd-sm">Contact</a>
+        </td>
+        <td class="">
+          <a href="#" class="ff-co c-pitch bg-c-slime bd-sm">About Me</a>
+        </td>
+        <td class="">
+          <a href="#" class="ff-co c-pitch bg-c-slime bd-sm">Projects</a>
+        </td>
+        <td class="">
+          <a href="#" class="ff-co c-pitch bg-c-slime bd-sm">Resume</a>
+        </td>
+      </tr>
+    </tbody></table>
+  </nav>
+    <!--
+    Here's the main page content
+    -->
+    <main>
+      <h1>Phase 0 Unit 1 blog</h1>
   <h2>Version Control and git/GitHub</h2>
   <h4>10.04.2015</h4>
 
@@ -22,5 +56,24 @@
     </p>
 
       <!-- copy and paste as many sections as you want to add paragraphs -->
-  </section>
-</main>
+  </section><h2 class="fs-obl"> Inline vs Inline-block</h2>
+      <section>
+        <p class="fw-bold fz-med"> What does it mean to display "inline" vs using "inline block?"</p>
+        <p class="txt-ind">When altering the display property of an element in CSS, there are several options. Two of the most common ones are "inline" and "inline-block." By designating an element's display property as "inline," no line break will be created before or after the element. It will appear on the same line as the inline elements around it.</p><p class="txt-ind">"Inline-block" is used when you want an element to have no line breaks before or after it, but retain it's own dimensions.</p>
+        <br>
+
+        <h2 class="d-inl">h2 displayed inline </h2><p class="d-inl">with this p section</p>
+        <br>
+        <p class="d-inl"> This is a sample sentence with a picture </p><img src="../imgs/face.png" alt="face" class="d-inl-bl"><p class="d-inl">that has a display property of "inline-block." It has a designated height and width.</p>
+      </section>
+    </main>
+
+    <!--
+    Here's the footer
+    -->
+    <footer class="ta-c clr-both bg-c-khaki height-ft pd-s ff-co">
+    <h2 class="c-pitch">This is the footer. I'm not sure what I want to put down here yet.</h2>
+  </footer>
+
+  </body>
+</html>
