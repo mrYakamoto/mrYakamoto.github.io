@@ -1,8 +1,16 @@
+main a:visited {
+    color: #711900;
+}
 
+main a {
+  color: #A10009;
+}
 
 main {
   margin-left: 3%;
+  /*fall-back for browsers not supporting alpha channel in background color*/
   background-color: #D1D1D1;
+  background-color: rgba(158,140,178,0.5);
   margin-top: 50px;
   padding: 15px;
   margin-bottom: 60px;
