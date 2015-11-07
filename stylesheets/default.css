@@ -1,6 +1,12 @@
 .debug { border: 0px solid red;}
 .debugg { border: 0px solid green;}
 
+nav {
+  background-color: rgba(811,840,878,0.8);
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
 body {
   margin: 0;
   background-image: url("https://raw.githubusercontent.com/mrYakamoto/mrYakamoto.github.io/master/imgs/background/static3.jpg");
