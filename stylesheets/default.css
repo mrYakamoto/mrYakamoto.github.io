@@ -43,14 +43,17 @@ footer {
 .ta-c { text-align: center; }
 .ta-l { text-align: left; }
 
+.fz-xtra-sm { font-size: 1.5em; }
+.fz-sm { font-size: 2em;}
 .fz-med { font-size:3em;}
 .fz-lrg { font-size: 4em; }
 .fz-xl { font-size:1.5em; }
 
 
 .ff-co { font-family: courier; }
-.ff-play { font-family: 'Play', courier; }
+.ff-amatic { font-family: 'Amatic SC', courier; }
 .fs-obl { font-style: oblique;}
+.fw-xtra-bold { font-weight: 999;}
 .fw-bold { font-weight: 500;}
 .fw-slight { font-weight: 100;}
 
@@ -86,6 +89,7 @@ footer {
 .m-b { margin-bottom: 20px; }
 .m-b-med { margin-bottom: 35px; }
 .m-b-lrg { margin-bottom: 50px; }
+.m-t-0 { margin-top: 0px; }
 .m-t { margin-top: 20px; }
 .m-t-lrg { margin-top: 50px; }
 
