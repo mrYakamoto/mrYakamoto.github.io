@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <title>Looping</title>
+</head>
+
+<body>
+
+    <nav class="m-b">
+    <table class="pd-0 width-lrg m-l-sm debug">
+      <tbody><tr class="bd-sm pd-0 m-0">
+        <td class="debug">
+          <a href="../index.html" class="ff-co c-pitch bg-c-slime bd-sm">Home</a>
+        </td>
+        <td class="">
+          <a href="../contact.html" class="ff-co c-pitch bg-c-slime bd-sm">Contact</a>
+        </td>
+        <td class="">
+          <a href="../about.html" class="ff-co c-pitch bg-c-slime bd-sm">About Me</a>
+        </td>
+        <td class="">
+          <a href="#" class="ff-co c-pitch bg-c-slime bd-sm">Projects</a>
+        </td>
+        <td class="">
+          <a href="#" class="ff-co c-pitch bg-c-slime bd-sm">Resume</a>
+        </td>
+      </tr>
+    </tbody></table>
+  </nav>
+    <!--
+    Here's the main page content
+  -->
+  <main class="debugg">
+    <h2>Looping in Ruby vs.<br>Looping in JavaScript</h2>
+    <article class="">
+      <p>
+        While switching back and forth between Ruby and JavaScript, it becomes clear that there are some major distinctions between the two languages. How each language treats looping is a quality that can be easily used to demonstrate their differences. Ruby seems to be much more of a colloquially written language, more easily understood by even non-programmers. JavaScript has much stricter "grammar" and is written more with the computer in mind than the coder. Ruby has many built-in methods for the purpose of looping/iterating through collections. The core of these methods is <span class="fw-bold">#each</span>.
+      </p>
+      <p>
+        <span class="fw-bold">#each</span> is a built-in method in Ruby which is used to move through a collection and apply each element, one by one, to a given code block. The <a href="http://ruby-doc.org/core-2.2.3/Enumerable.html">enumerable</a> mix-in in Ruby provides a large selection of methods used to iterate through collections with all sorts of purposes in mind.
+      </p>
+      <p>
+        However, JavaScript provides no such built-in method for iterating over a collection. The foundation of iteration in JavaScript is the <span class="fw-bold">for/while</span> loop. A <span class="fw-bold">for loop </span>is often used for the identical purpose that #each would be used in Ruby, but in JavaScript each step of it must be written out for the program.
+      </p>
+      <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">for</span> ( <span style="color: #008800; font-weight: bold">var</span> i <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">0</span>; i <span style="color: #333333">&lt;</span> array.length; i<span style="color: #333333">++ </span>) {
+code block here;
+};
+</pre></div>
+      <p>
+        Here, the additional logic of initiating a counter and telling it to increment itself by a given value as long as the given boolean remains true, must be all written out. If we were using this for loop to iterate an array, the counter would have to be used as the index point for the desired elements.
+      </p>
+      <p>
+        While the syntax is dramatically different between Ruby and JavaScript, the core concepts are identical. JavaScript merely requires the process to be spelled out step by step while Ruby offers some built in shortcuts.
+      </p>
+
+
+    </article>
+  </main>
+
+    <!--
+    Here's the footer
+  -->
+  <footer class="pd-s debug ta-c clr-both height-ft ff-co">
+    <h2 class="m-0 debug c-pitch">This is the footer.</h2>
+  </footer>
+
+</body>
+</html>
