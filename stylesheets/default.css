@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  width: 665px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -37,8 +37,6 @@ footer {
    width:100%;
    background-color: rgba(61,56,64,0.8)
 }
-
-
 
 .ta-c { text-align: center; }
 .ta-l { text-align: left; }
@@ -71,14 +69,23 @@ footer {
 .bg-c-slime { background-color: #A46EBF;}
 
 
-
-
 .pd-0 { padding: 0;}
 .pd-s { padding: 5px; }
 .pd-m { padding: 15px; }
 .pd-t { padding-top: 15px; }
 
+.pd-l-sm { padding-left: 3%; }
+.pd-t-sm { padding-top: 12px; }
+.pd-r-sm { padding-right: 5px; }
+
+.m-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .m-0 { margin: 0; }
+.m-m { margin: 15px;}
 .m-l { margin-left: 5%; }
 .m-l-sm { margin-left: 2.5%; }
 .m-l-med { margin-left: 15%; }
@@ -112,6 +119,7 @@ footer {
 .height-m { height: 285px;}
 .height-ft { height: 30px;}
 .width-lrg { width: 95%;}
+.width-body { width: 666px;}
 
 .width-icons { width: 55px; }
 
