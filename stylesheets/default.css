@@ -7,6 +7,10 @@ nav {
   padding-top: 2px;
 }
 
+nav a:hover {
+  background-color: #DBFF41;
+}
+
 body {
   margin: 0;
   background-image: url("https://raw.githubusercontent.com/mrYakamoto/mrYakamoto.github.io/master/imgs/background/static3.jpg");
@@ -41,10 +45,13 @@ footer {
 .ta-c { text-align: center; }
 .ta-l { text-align: left; }
 
+.td-und {text-decoration: underline; }
+
 .fz-xtra-sm { font-size: 1.5em; }
 .fz-sm { font-size: 2em;}
 .fz-med { font-size:3em;}
 .fz-lrg { font-size: 4em; }
+.fz-lrgr { font-size: 5em; }
 .fz-xl { font-size:1.5em; }
 
 
@@ -83,21 +90,24 @@ footer {
   margin-right: auto;
 }
 
-
+.tab { margin-left: 3em; }
 .m-0 { margin: 0; }
 .m-m { margin: 15px;}
 .m-l { margin-left: 5%; }
 .m-l-sm { margin-left: 2.5%; }
 .m-l-med { margin-left: 15%; }
 .m-l-lrg { margin-left: 35%; }
+.m-r-0 { margin-right: 0px; }
 .m-r { margin-right: 5%; }
 .m-r-med {margin-right: 15%;}
 .m-r-sm { margin-right: 2.5%; }
+.m-b-0 { margin-bottom: 0px; }
 .m-b { margin-bottom: 20px; }
 .m-b-med { margin-bottom: 35px; }
 .m-b-lrg { margin-bottom: 50px; }
 .m-t-0 { margin-top: 0px; }
 .m-t { margin-top: 20px; }
+.m-t-m { margin-top: 35px; }
 .m-t-lrg { margin-top: 50px; }
 
 .m-r-80 {margin-right: 80px;}
