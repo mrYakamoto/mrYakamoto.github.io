@@ -34,10 +34,102 @@
 
   <main class="debugg">
     <article>
-      <h2 class="fz-lrgr ff-amatic ta-c m-r-0 m-t-0 m-b-0">Cheeeeeeat Sheeeeeeet</h2>
-      <h3 class="fz-lrg ff-amatic ta-l m-r-0 m-b-0 td-und">Ruby Enumerables</h3>
-      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">#each - </h4>
-      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">each does this shit</h5>
+      <h2 class="fz-lrgr ff-amatic ta-c m-r-0 m-t-0 m-b-0">
+        Cheeeeeeat Sheeeeeeet
+      </h2>
+      <h3 class="fz-lrg ff-amatic ta-l m-r-0 m-b-0 td-und">
+        Ruby Enumerables
+      </h3>
+      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        #each -
+      </h4>
+      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        calls the given block once for each element in self, passing that element as a parameter.
+      </h5>
+      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
+        each { |item| block }
+      </h5>
+      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        #all?
+      </h4>
+      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        returns true if any element passes the given code block
+      </h5>
+      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
+        all? { |object| block }
+      </h5>
+      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        any?
+      </h4>
+      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        returns true if any element passes the given code block
+      </h5>
+      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
+        any? { |object| block }
+      </h5>
+      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        #collect
+      </h4>
+      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        returns a new array with the result of passing a given code block on each element
+      </h5>
+      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
+        collect { |object| block }
+      </h5>
+      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        #each_slice
+      </h4>
+      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        iterates the given block for each slice of n elements.
+      </h5>
+      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
+        each_slice(n) { |n objects| block }
+      </h5>
+      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">#each_with_index
+      </h4>
+      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        calls given block with two arguments, the item and its index.
+      </h5>
+      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
+        each_with_index { |obj, i| block }
+      </h5>
+      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        #find / #detect
+      </h4>
+      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        passes each entry to the given block. Returns the first for which block returns true.
+      </h5>
+      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
+        find { |obj| block }
+      </h5>
+      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        #find_all
+      </h4>
+      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        passes each entry to given block. Returns an array containing all that return true.
+      </h5>
+      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
+        find_all { |obj| block }
+      </h5>
+      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        #find_index
+      </h4>
+      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        passes each entry to given block and returns the index for the first which returns true.
+      </h5>
+      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
+        #find_index { |obj| block }
+      </h5>
+      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        #grep
+      </h4>
+      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
+        returns an array of every element which pattern === element. If optional block is passed to it, each matching element is put through block and the block's result is stored in returned array.
+      </h5>
+      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
+        grep(/regex/) { |obj| optional block }
+      </h5>
+
     </article>
 
   </main>
