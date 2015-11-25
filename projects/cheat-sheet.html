@@ -2,8 +2,9 @@
 <html>
 <head>
   <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700,400' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/cheat-sheet.css">
 
   <title>Projects</title>
 </head>
@@ -33,105 +34,176 @@
   </nav>
 
   <main class="debugg">
-    <article>
-      <h2 class="fz-lrgr ff-amatic ta-c m-r-0 m-t-0 m-b-0">
-        Cheeeeeeat Sheeeeeeet
-      </h2>
-      <h3 class="fz-lrg ff-amatic ta-l m-r-0 m-b-0 td-und">
-        Ruby Enumerables
-      </h3>
-      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        #each -
-      </h4>
-      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        calls the given block once for each element in self, passing that element as a parameter.
-      </h5>
-      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
-        each { |item| block }
-      </h5>
-      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        #all?
-      </h4>
-      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        returns true if any element passes the given code block
-      </h5>
-      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
-        all? { |object| block }
-      </h5>
-      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        any?
-      </h4>
-      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        returns true if any element passes the given code block
-      </h5>
-      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
-        any? { |object| block }
-      </h5>
-      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        #collect
-      </h4>
-      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        returns a new array with the result of passing a given code block on each element
-      </h5>
-      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
-        collect { |object| block }
-      </h5>
-      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        #each_slice
-      </h4>
-      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        iterates the given block for each slice of n elements.
-      </h5>
-      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
-        each_slice(n) { |n objects| block }
-      </h5>
-      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">#each_with_index
-      </h4>
-      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        calls given block with two arguments, the item and its index.
-      </h5>
-      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
-        each_with_index { |obj, i| block }
-      </h5>
-      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        #find / #detect
-      </h4>
-      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        passes each entry to the given block. Returns the first for which block returns true.
-      </h5>
-      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
-        find { |obj| block }
-      </h5>
-      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        #find_all
-      </h4>
-      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        passes each entry to given block. Returns an array containing all that return true.
-      </h5>
-      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
-        find_all { |obj| block }
-      </h5>
-      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        #find_index
-      </h4>
-      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        passes each entry to given block and returns the index for the first which returns true.
-      </h5>
-      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
-        #find_index { |obj| block }
-      </h5>
-      <h4 class="d-inl fz-med ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        #grep
-      </h4>
-      <h5 class="d-inl fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0">
-        returns an array of every element which pattern === element. If optional block is passed to it, each matching element is put through block and the block's result is stored in returned array.
-      </h5>
-      <h5 class="fz-sm ff-amatic ta-l m-r-0 m-t-0 m-b-0 tab">
-        grep(/regex/) { |obj| optional block }
-      </h5>
+    <header>
+      <h1>Ruby Enumberables Cheat Sheet</h1>
+    </header>
+    <section class="">
+      <h1>Most used</h1>
+      <h2>#each</h2>
+      <h4>each { |item| block } --> ary</h4>
 
-    </article>
+      <h2>#map</h2>
+      <h4>map { |obj| block } --> array</h4>
 
+      <h2>#all?</h2>
+      <h4>all? [{ |obj| block } ] --> true or false</h4>
+
+      <h2>#any?</h2>
+      <h4>any? [{ |obj| block }] --> true or false</h4>
+
+      <h2>#detect / #find</h2>
+      <h4>detect(ifnone = nil) { |obj| block } --> obj or nil</h4>
+
+      <h2>#each_slice</h2>
+      <h4>(1..6).each_slice(3) { |a| p a } --><br> [1, 2, 3]<br>[4, 5, 6]<br></h4>
+
+      <h2>#each_with_index</h2>
+      <h4>each_with_index(*args) { |obj, i| block } --> enum click to toggle source</h4>
+
+      <h2>#grep</h2>
+      <h4>grep(pattern) --> array<br>
+        grep(pattern) { |obj| block } --> array</h4>
+
+
+      <h2>#max</h2>
+      <h4>max --> obj click to toggle source<br>
+max { |a, b| block } --> obj<br>
+max(n) --> obj<br>
+max(n) {|a,b| block } --> obj</h4>
+
+      <h2>#min</h2>
+      <h4>min --> obj<br>
+min {| a,b | block } --> obj<br>
+min(n) --> array<br>
+min(n) {| a,b | block } --> array</h4>
+
+      <h2>#reduce</h2>
+      <h4>reduce(initial, sym) --> obj<br>
+reduce(sym) --> obj<br>
+reduce(initial) { |memo, obj| block } --> obj<br>
+reduce { |memo, obj| block } --> obj</h4>
+
+      <h2>#sort</h2>
+      <h4>sort --> array<br>
+sort { |a, b| block } --> array</h4>
+    </section>
+    <section class="fl-r">
+      <h1>Less used</h1>
+      <h2>#chunk</h2>
+      <h4>chunk { | elt | ... } --> an_enumerator<br>
+chunk(initial_state) { |elt, state| ... } --> an_enumerator (deprecated)</h4>
+
+      <h2>#collect</h2>
+      <h4>collect_concat { |obj| block } --> array<br>
+collect_concat --> an_enumerator</h4>
+
+      <h2>#count</h2>
+      <h4>count --> int<br>
+count(item) --> int<br>
+count { |obj| block } --> int</h4>
+
+      <h2>#cycle</h2>
+      <h4>cycle(n=nil) { |obj| block } --> nil<br>
+cycle(n=nil) --> an_enumerator</h4>
+
+      <h2>#drop</h2>
+      <h4>drop(n) --> array</h4>
+
+      <h2>#each_cons</h2>
+      <h4>each_cons(n) { ... } --> nil<br>
+each_cons(n) → an_enumerator</h4>
+
+      <h2>#each_entry</h2>
+      <h4>each_entry { |obj| block } --> enum<br>
+each_entry --> an_enumerator</h4>
+
+      <h2>#each_with_object</h2>
+      <h4>each_with_object(obj) { |(*args), memo_obj| ... } --> obj<br>
+each_with_object(obj) --> an_enumerator</h4>
+
+      <h2>#entries</h2>
+      <h4>entries(*args) --> array</h4>
+
+      <h2>#find_all</h2>
+      <h4>find_all { |obj| block } --> array<br>
+find_all --> an_enumerator</h4>
+
+      <h2>#find_index</h2>
+      <h4>find_index(value) --> int or nil<br>
+find_index { |obj| block } --> int or nil<br>
+find_index --> an_enumerator</h4>
+
+      <h2>#first</h2>
+      <h4>first --> obj or nil<br>
+first(n) --> an_array</h4>
+
+      <h2>#flat_map</h2>
+      <h4>flat_map { |obj| block } --> array<br>
+flat_map --> an_enumerator</h4>
+
+      <h2>#include?</h2>
+      <h4>include?(obj) --> true or false</h4>
+
+      <h2>#inject</h2>
+      <h4>inject(initial, sym) --> obj<br>
+inject(sym) --> obj<br>
+inject(initial) { |memo, obj| block } --> obj<br>
+inject { |memo, obj| block } --> obj</h4>
+
+      <h2>#lazy</h2>
+      <h4>lazy --> lazy_enumerator</h4>
+
+      <h2>#min_by</h2>
+      <h4>min_by {|obj| block } --> obj<br>
+min_by --> an_enumerator<br>
+min_by(n) {|obj| block } --> array<br>
+min_by(n) --> an_enumerator</h4>
+
+      <h2>#minmax</h2>
+      <h4>minmax --> [min, max]<br>
+minmax { |a, b| block } --> [min, max]</h4>
+
+      <h2>#none?</h2>
+      <h4>none? [{ |obj| block }] --> true or false</h4>
+
+      <h2>#one?</h2>
+      <h4>one? [{ |obj| block }] --> true or false</h4>
+
+      <h2>#partition</h2>
+      <h4>partition { |obj| block } --> [ true_array, false_array ]<br>
+partition → an_enumerator</h4>
+
+      <h2>#reject</h2>
+      <h4>reject { |obj| block } --> array<br>
+reject → an_enumerator</h4>
+
+      <h2>#reverse_each</h2>
+      <h4>reverse_each(*args) { |item| block } --> enum<br>
+reverse_each(*args) --> an_enumerator</h4>
+
+      <h2>#slice_after</h2>
+      <h4>slice_after(pattern) --> an_enumerator<br>
+slice_after { |elt| bool } --> an_enumerator</h4>
+
+      <h2>#slice_before</h2>
+      <h4>slice_before(pattern) --> an_enumerator<br>
+slice_before { |elt| bool } --> an_enumerator<br>
+slice_before(initial_state) { |elt, state| bool } --> an_enumerator (deprecated)</h4>
+
+      <h2>#slice_when</h2>
+      <h4>slice_when {|elt_before, elt_after| bool } --> an_enumerator</h4>
+
+      <h2>#to_a</h2>
+      <h4>to_a(*args) --> array</h4>
+
+      <h2>#to_h</h2>
+      <h4>to_h(*args) --> hash</h4>
+
+      <h2>#zip</h2>
+      <h4>zip(arg, ...) --> an_array_of_array<br>
+zip(arg, ...) { |arr| block } --> nil</h4>
+
+    </section>
   </main>
 
 
