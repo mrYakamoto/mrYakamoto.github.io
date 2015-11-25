@@ -74,7 +74,10 @@ footer {
 .bg-c-dark { background-color: #219486;}
 .bg-c-khaki { background-color: #FFEED1}
 .bg-c-slime { background-color: #A46EBF;}
+.bg-c-bright { background-color: rgba(158,100,900,0.8); }
 
+
+.p-m { line-height: 90%; }
 
 .pd-0 { padding: 0;}
 .pd-s { padding: 5px; }
@@ -130,6 +133,11 @@ footer {
 .height-ft { height: 30px;}
 .width-lrg { width: 95%;}
 .width-body { width: 666px;}
+
+.sz-big-icons {
+  width: 296px;
+  height: 221px;
+}
 
 .width-icons { width: 55px; }
 
