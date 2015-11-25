@@ -83,6 +83,7 @@ footer {
 .pd-s { padding: 5px; }
 .pd-m { padding: 15px; }
 .pd-t { padding-top: 15px; }
+.pd-b { padding-bottom: 15px; }
 
 .pd-l-sm { padding-left: 3%; }
 .pd-t-sm { padding-top: 12px; }
@@ -136,7 +137,6 @@ footer {
 
 .sz-big-icons {
   width: 296px;
-  height: 221px;
 }
 
 .width-icons { width: 55px; }
