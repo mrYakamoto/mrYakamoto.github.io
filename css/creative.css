@@ -215,10 +215,23 @@ header .header-content .header-content-inner p {
   margin-bottom: 0;
 }
 .portfolio-box {
+  box-shadow: 2px 2px 7px #a0a0a0;
   position: relative;
   display: block;
   max-width: 650px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
+}
+
+@media(min-width: 768px) {
+  .portfolio-box-container:nth-of-type(odd) .portfolio-box{
+    margin-right: 15px;
+  }
+  .portfolio-box-container:nth-of-type(even) .portfolio-box{
+    margin-left: 15px;
+  }
+} 
+
+.portfolio-box img {
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
