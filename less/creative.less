@@ -19,7 +19,7 @@ hr {
 }
 
 hr.light {
-    border-color: white;
+    border-color: #fff;
 }
 
 a {
@@ -52,11 +52,11 @@ p {
 
 .bg-dark {
     background-color: @theme-dark;
-    color: white;
+    color: #fff;
 }
 
 .text-faded {
-    color: fade(white, 70%);
+    color: fade(#fff, 70%);
 }
 
 section {
@@ -74,7 +74,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color: #fff;
     border-color: fade(@theme-dark, 5%);
     .sans-serif-font;
     .transition-all;
@@ -114,23 +114,23 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
-        border-color: fade(white, 30%);
+        border-color: fade(#fff, 30%);
         .navbar-header .navbar-brand {
-            color: fade(white, 70%);
+            color: fade(#fff, 70%);
             &:hover,
             &:focus {
-                color: white;
+                color: #fff;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: fade(white, 70%);
+            color: fade(#fff, 70%);
             &:hover {
-                color: white;
+                color: #fff;
             }
         }
         &.affix {
-            background-color: white;
+            background-color: #fff;
             border-color: fade(@theme-dark, 5%);
             .navbar-header .navbar-brand {
                 color: @theme-primary;
@@ -159,9 +159,9 @@ header {
     min-height: auto;
     .background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/desk.jpeg');
     text-align: center;
-    color: white;
+    color: #fff;
     .header-content {
         position: relative;
         text-align: center;
@@ -179,7 +179,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: fade(white, 70%);
+                color: fade(#fff, 70%);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -226,13 +226,23 @@ header {
     }
 }
 
+@media(min-width: 768px) {
+  .portfolio-box-container:nth-of-type(odd) .portfolio-box{
+    margin-right: 15px;
+  }
+  .portfolio-box-container:nth-of-type(even) .portfolio-box{
+    margin-left: 15px;
+  }
+}
+
 .portfolio-box {
+    box-shadow: 2px 2px 7px #a0a0a0;
     position: relative;
     display: block;
     max-width: 650px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     .portfolio-box-caption {
-        color: white;
+        color: #fff;
         opacity: 0;
         display: block;
         background: fade(@theme-primary, 90%);
@@ -300,11 +310,11 @@ header {
 
 // Button Styles
 .btn-default {
-    .button-variant(@theme-dark;white;white);
+    .button-variant(@theme-dark;#fff;#fff);
 }
 
 .btn-primary {
-    .button-variant(white;@theme-primary;@theme-primary);
+    .button-variant(#fff;@theme-primary;@theme-primary);
 }
 
 .btn {
@@ -322,24 +332,24 @@ header {
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
-    color: white;
+    color: #fff;
     text-shadow: none;
     background: @theme-dark;
 }
 
 ::selection {
-    color: white;
+    color: #fff;
     text-shadow: none;
     background: @theme-dark;
 }
 
 img::selection {
-    color: white;
+    color: #fff;
     background: transparent;
 }
 
 img::-moz-selection {
-    color: white;
+    color: #fff;
     background: transparent;
 }
 
