@@ -1,6 +1,6 @@
 /*!
  * Creative v1.0.3 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
@@ -18,7 +18,7 @@ hr {
   max-width: 50px;
 }
 hr.light {
-  border-color: white;
+  border-color: #fff;
 }
 a {
   -webkit-transition: all 0.35s;
@@ -48,7 +48,7 @@ p {
 }
 .bg-dark {
   background-color: #222222;
-  color: white;
+  color: #fff;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -63,7 +63,7 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: white;
+  background-color: #fff;
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
@@ -110,7 +110,7 @@ aside {
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: white;
+    color: #fff;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
@@ -118,10 +118,10 @@ aside {
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: white;
+    color: #fff;
   }
   .navbar-default.affix {
-    background-color: white;
+    background-color: #fff;
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
@@ -152,7 +152,7 @@ header {
   background-position: center;
   background-image: url('../img/desk.jpeg');
   text-align: center;
-  color: white;
+  color: #fff;
 }
 header .header-content {
   position: relative;
@@ -214,6 +214,14 @@ header .header-content .header-content-inner p {
 .service-box p {
   margin-bottom: 0;
 }
+@media (min-width: 768px) {
+  .portfolio-box-container:nth-of-type(odd) .portfolio-box {
+    margin-right: 15px;
+  }
+  .portfolio-box-container:nth-of-type(even) .portfolio-box {
+    margin-left: 15px;
+  }
+}
 .portfolio-box {
   box-shadow: 2px 2px 7px #a0a0a0;
   position: relative;
@@ -221,20 +229,8 @@ header .header-content .header-content-inner p {
   max-width: 650px;
   margin: 0 auto 30px;
 }
-
-@media(min-width: 768px) {
-  .portfolio-box-container:nth-of-type(odd) .portfolio-box{
-    margin-right: 15px;
-  }
-  .portfolio-box-container:nth-of-type(even) .portfolio-box{
-    margin-left: 15px;
-  }
-} 
-
-.portfolio-box img {
-}
 .portfolio-box .portfolio-box-caption {
-  color: white;
+  color: #fff;
   opacity: 0;
   display: block;
   background: rgba(240, 95, 64, 0.9);
@@ -290,8 +286,8 @@ header .header-content .header-content-inner p {
 }
 .btn-default {
   color: #222222;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: #fff;
+  border-color: #fff;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -329,15 +325,15 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-default .badge {
-  color: #ffffff;
+  color: #fff;
   background-color: #222222;
 }
 .btn-primary {
-  color: #ffffff;
+  color: #fff;
   background-color: #f05f40;
   border-color: #f05f40;
   -webkit-transition: all 0.35s;
@@ -350,7 +346,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: #ffffff;
+  color: #fff;
   background-color: #ee4b28;
   border-color: #ed431f;
 }
@@ -382,7 +378,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-primary .badge {
   color: #f05f40;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -395,29 +391,23 @@ fieldset[disabled] .btn-primary.active {
   padding: 15px 30px;
 }
 ::-moz-selection {
-  color: white;
+  color: #fff;
   text-shadow: none;
   background: #222222;
 }
 ::selection {
-  color: white;
+  color: #fff;
   text-shadow: none;
   background: #222222;
 }
 img::selection {
-  color: white;
+  color: #fff;
   background: transparent;
 }
 img::-moz-selection {
-  color: white;
+  color: #fff;
   background: transparent;
 }
 body {
   webkit-tap-highlight-color: #222222;
 }
-
-
-div.skills-row > div.col-sm-6 {
-  height: 186px;
-}
-
