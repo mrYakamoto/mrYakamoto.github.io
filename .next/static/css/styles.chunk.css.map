@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/styles.chunk.css","sources":["webpack:///./pages/main.less","webpack:///./components/common/header/style.less"],"sourcesContent":["body {\n  color: red;\n}\n",".header__nav-item:not(:first-of-type) {\n  padding-left: 50px;\n}\n"],"mappings":"AAAA;AACA;AACA;;ACFA;AACA;AACA;;","sourceRoot":""}
