@@ -8,7 +8,7 @@ const Home = () => {
             <GlobalHead title='GreggW Home Page' />
             <Header />
             <h1>GreggW!</h1>
-            <img height='500px' width='auto' src = '/static/test-image.JPG' />      
+            <img height='500px' width='auto' src = '/static/test-image.jpeg' />      
         </div>
     )
 }
