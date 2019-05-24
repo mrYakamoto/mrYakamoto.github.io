@@ -4,7 +4,7 @@
         "build": "next build",
         "start": "next start",
         "export": "next build && next export",
-        "deploy": "git push origin `git subtree split --prefix out/ develop`:master --force"
+        "deploy": "./scripts/deploy"
     },
     "dependencies": {
         "@zeit/next-less": "^1.0.1",
