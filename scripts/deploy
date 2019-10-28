@@ -1,13 +1,15 @@
 # #!/bin/bash
-printf "\e[35m\nCreating static build in out/ directory...\e[m\n\n"
+printf "\e[35m\nCreating static build and exporting to out/ directory...\e[m\n\n"
 yarn export
 
 printf "\e[35m\nAdding CNAME and .nojekyll files to out/ directory...\e[m\n\n"
 # # # # add .nojekyll to static build so that github-pages won't ignore _next folder
 touch out/.nojekyll
-
 # # # # add CNAME file to static build
 echo "greggw.com" >> out/CNAME
+
+printf "\e[35mAdding and commiting changes to the branch...\e[m\n\n"
+git add out/ && git commit -m "Create new static build from production branch"
 
 printf "\e[35mForce pushing out/ directory to the master branch of remote repo...\e[m\n\n"
 # # # force push the contents of the out/ directory on the develop branch to origin/master

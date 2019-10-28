@@ -4,10 +4,11 @@
         "build": "next build",
         "start": "next start",
         "export": "next build && next export",
-        "deploy": "./scripts/deploy"
+        "deploy": "git-branch-is production && ./scripts/deploy"
     },
     "dependencies": {
         "@zeit/next-less": "^1.0.1",
+        "git-branch-is": "^3.0.0",
         "less": "^3.10.3",
         "next": "^9.1.1",
         "react": "^16.11",
