@@ -1,6 +1,11 @@
+import React from 'react';
 import Head from 'next/head';
 
-const GlobalHead = ({title}) => (
+interface GlobalHeadProps {
+    title: string;
+}
+
+const GlobalHead: React.FunctionComponent<GlobalHeadProps> = ({title}: GlobalHeadProps) => (
     <Head>
         <title>{title}</title>
         <meta

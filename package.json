@@ -4,7 +4,8 @@
         "build": "next build",
         "start": "next start",
         "export": "next build && next export",
-        "deploy": "git-branch-is production && ./scripts/deploy"
+        "deploy": "git-branch-is production && ./scripts/deploy",
+        "lint": "./node_modules/.bin/eslint --ext .jsx --ext .js --ext .tsx --ext .ts --ignore-path .eslintignore ."
     },
     "dependencies": {
         "@zeit/next-less": "^1.0.1",
@@ -13,5 +14,14 @@
         "next": "^9.1.1",
         "react": "^16.11",
         "react-dom": "^16.11"
+    },
+    "devDependencies": {
+        "@types/node": "^12.11.7",
+        "@types/react": "^16.9.11",
+        "@typescript-eslint/eslint-plugin": "^2.6.0",
+        "@typescript-eslint/parser": "^2.6.0",
+        "eslint": "^6.6.0",
+        "eslint-plugin-react": "^7.16.0",
+        "typescript": "^3.6.4"
     }
 }

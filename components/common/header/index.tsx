@@ -1,7 +1,8 @@
+import React from 'react';
 import Link from 'next/link';
 import './style.less';
 
-const Header = () => (
+const Header: React.FunctionComponent = () => (
     <div className='header'>
         <Link prefetch href='/'>
             <a className="header__nav-item">Home</a>
