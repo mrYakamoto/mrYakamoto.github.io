@@ -1,12 +1,15 @@
-#!/bin/bash
+# #!/bin/bash
+printf "\e[35m\nCreating static build in out/ directory...\e[m\n\n"
 yarn export
 
-# add .nojekyll to static build so that github-pages won't ignore _next folder
+printf "\e[35m\nAdding CNAME and .nojekyll files to out/ directory...\e[m\n\n"
+# # # # add .nojekyll to static build so that github-pages won't ignore _next folder
 touch out/.nojekyll
 
-# add CNAME file to static build
+# # # # add CNAME file to static build
 echo "greggw.com" >> out/CNAME
 
-# force push the contents of the out/ directory on the develop branch to origin/master
-git push origin `git subtree split --prefix out/ production`:master --force
-
+printf "\e[35mForce pushing out/ directory to the master branch of remote repo...\e[m\n\n"
+# # # force push the contents of the out/ directory on the develop branch to origin/master
+# # # https://clontz.org/blog/2014/05/08/git-subtree-push-for-deployment/
+git push origin `git subtree split --prefix out production`:master --force
