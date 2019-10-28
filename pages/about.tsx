@@ -1,7 +1,8 @@
+import React from 'react';
 import GlobalHead from '../components/common/global-head';
 import Header from '../components/common/header';
 
-const AboutMePage = () => (
+const AboutMePage: React.FunctionComponent = () => (
     <div>
         <Header />
         <GlobalHead title='About me' />

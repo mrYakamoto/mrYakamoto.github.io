@@ -1,8 +1,9 @@
 import './main.less';
+import React from 'react';
 import GlobalHead from '../components/common/global-head';
 import Header from '../components/common/header';
 
-const Home = () => {
+const Home: React.FunctionComponent = () => {
     return (
         <div>
             <GlobalHead title='GreggW Home Page' />
