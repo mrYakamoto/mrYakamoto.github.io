@@ -8,8 +8,8 @@ const Home: React.FunctionComponent = () => {
         <div>
             <GlobalHead title='GreggW Home Page' />
             <Header />
-            <h1>HERE IS A TITLE!</h1>
-            <img height='500px' width='auto' src = '/static/test-image.jpeg' />      
+            <h1>Gregg and Cecelia dot com</h1>
+            <img height='500px' width='auto' src = '/static/invite.jpg' />      
         </div>
     )
 }
